@@ -20,7 +20,6 @@ public class MatrizesNotasAlunos {
                 soma+=Notas[i][j];
             }
             media[i]=Math.round((soma/3)* 100.0) / 100.0;
-            System.out.println(media[i]);
         }
         double maior=media[0],menor=media[0]; String [] aprovados= new String[5];
         for (int i = 0; i < media.length; i++) {
